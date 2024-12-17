@@ -9,8 +9,6 @@ body{
     box-sizing: border-box;
 }
 
-/* Решта коду */
-
 a{
     text-decoration: none;
 }
@@ -35,6 +33,7 @@ ul, ol{
 
 /* #region header*/
 .header-page{
+
 }
 
 .nav-page{
@@ -42,7 +41,6 @@ ul, ol{
 }
 
 .logo-header{
-display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
@@ -57,7 +55,6 @@ font-weight: 700;
 }
 
 .logo-style{
-display: inline;
     font-weight: 700;
         font-size: 18px;
         line-height: 1.17;
@@ -67,7 +64,6 @@ color: #2e2f42;
 }
 
 .nav-list{
-display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
@@ -237,4 +233,8 @@ padding-left: 15px;
 padding-right: 15px; 
 margin-left: 
 margin-right:
+}
+
+.container-header{
+    display: flex;
 }
