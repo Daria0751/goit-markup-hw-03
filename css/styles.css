@@ -3,6 +3,13 @@ body{
     color: #434455;
     background-color: #FFFFFF;
 }
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Решта коду */
 
 a{
     text-decoration: none;
@@ -17,9 +24,17 @@ button{
     cursor: pointer;
 }
 
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+
+ul, ol{
+    margin: 0;
+    padding-left: 0;
+}
+
 /* #region header*/
 .header-page{
-
 }
 
 .nav-page{
@@ -27,6 +42,11 @@ button{
 }
 
 .logo-header{
+display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 0px;
 font-family: "Raleway", sans-serif;
 font-weight: 700;
     font-size: 18px;
@@ -37,6 +57,7 @@ font-weight: 700;
 }
 
 .logo-style{
+display: inline;
     font-weight: 700;
         font-size: 18px;
         line-height: 1.17;
@@ -46,7 +67,11 @@ color: #2e2f42;
 }
 
 .nav-list{
-
+display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
 }
 
 .nav-item{
@@ -200,4 +225,16 @@ letter-spacing: 0.02em
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+}
+
+.img-block{
+    box-sizing: content-box;
+}
+
+.container{
+max-width: 1440px; 
+padding-left: 15px;
+padding-right: 15px; 
+margin-left: 
+margin-right:
 }
