@@ -256,15 +256,15 @@ object-fit: contain;
 flex-wrap: wrap;
 padding: 72px 0 120px 0;
 gap: 48px 24px;
+justify-content: center;
 }
 
 .sect-four-item{
-    border: 1px solid #e7e9fc;
+    width: calc((100% - 24px) / 3);
 }
 
 .img-block{
-width: 360px;
-    height: 300px;
+
 }
 
 .title-four{
@@ -303,13 +303,13 @@ width: 360px;
 }
 
 .logo-footer{
-font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
+
 }
 
 .logo-style-footer{
@@ -338,4 +338,8 @@ letter-spacing: 0.02em
         color: #434455;
 }
 
-
+.container-footer{
+   display: block;
+   font-weight: 312px;
+   padding: 100px 156px;
+}
