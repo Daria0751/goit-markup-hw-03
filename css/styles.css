@@ -176,16 +176,6 @@ justify-content: baseline;
 max-width: 264px;
 }
 
-.title-four{
-font-weight: 500;
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: #2e2f42;
-}
-
 .title-two{
     font-size: 36px;
     line-height: 1.11;
@@ -201,6 +191,8 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+text-align: center;
+padding: 32px 8px 0;
 }
 
 .text-sect-one{
@@ -209,16 +201,46 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+text-align: center;
+padding: 0 32px;
+}
+.title-three .text-sect-one{
+    max-width: 232;
+}
+.sect-three{
+    background-color: #F4F4FD;
 }
 
-.sect-three{
-    background-color: #F4F4FD
+.title-four {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    padding: 124px 0;
+}
 
+.sect-three-list{
+background-color: #F4F4FD;
+display: flex;
+gap: 24px;
+padding: 72px 0 116px 0;
+width: calc((100% - 72px) / 4);
 }
 
 .spisok-tri{
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
+border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 380px;
+}
 
+.img-block-our-team {
+    box-sizing: content-box;
+    object-fit: contain;
 }
 
 
@@ -264,7 +286,4 @@ letter-spacing: 0.02em
         color: #434455;
 }
 
-.img-block{
-    box-sizing: content-box;
-}
 
