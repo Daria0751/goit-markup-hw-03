@@ -136,7 +136,6 @@ font-weight: 400;
 /* #endregion */
 
 .sect-hero{
-    padding: 72px 6px;
     height: 600px;
     background-color: #2e2f42;
     padding: 188px 0;
@@ -177,7 +176,7 @@ position: absolute;
     padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
-    clip: rect(0 0 0 0);
+    clip-path: inset(0);
     overflow: hidden;
 }
 
@@ -224,8 +223,9 @@ text-align: center;
 padding: 0 32px;
 }
 .title-three .text-sect-one{
-    max-width: 232;
+    max-width: 232px;
 }
+
 .sect-three{
     padding: 120px 0;
     background-color: #F4F4FD;
@@ -236,7 +236,6 @@ background-color: #F4F4FD;
 display: flex;
 gap: 24px;
 padding: 72px 0 116px 0;
-width: calc((100% - 72px) / 4);
 }
 
 .spisok-tri{
@@ -273,23 +272,22 @@ margin-bottom: 72px;
 }
 
 .sect-four-list{
-display: flex;
-object-fit: contain;
-flex-wrap: wrap;
-padding: 72px 0 120px 0;
-gap: 48px 24px;
-justify-content: center;
+ display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+    justify-content: center;
 }
 
 .sect-four-item{
-width: calc((100% - 48px) / 3);
+flex: 1 1 calc(33.33% - 32px);
+    min-width: 250px;
 }
 
 .img-block{
 
 }
 
-.title-four{
+.title-sect-four {
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -356,6 +354,6 @@ width: calc((100% - 48px) / 3);
 }
 
 .logo-footer {
-    display: inline-block;
+    display: block;
     margin-bottom: 16px;
 }
