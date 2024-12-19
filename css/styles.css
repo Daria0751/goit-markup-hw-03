@@ -26,6 +26,8 @@ a{
 ul,
 ol{
     list-style-type: none;
+    margin: 0;
+        padding-left: 0;
 }
 
 button{
@@ -34,11 +36,6 @@ button{
 
 h1, h2, h3, h4, h5, h6, p{
     margin: 0;
-}
-
-ul, ol{
-    margin: 0;
-    padding-left: 0;
 }
 
 /* #region header*/
@@ -246,7 +243,6 @@ width: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
 border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
-    width: calc((100% - 72px) / 4);
 }
 
 .img-block-our-team {
@@ -261,7 +257,7 @@ padding: 32px 0;
 .sect-img{
 justify-content: center;
 align-items: center;
-padding: 120px 0 120px 0;
+padding: 120px 0 120px 0
 }
 
 .title-four {
@@ -279,6 +275,7 @@ margin-bottom: 72px;
 display: flex;
 object-fit: contain;
 flex-wrap: wrap;
+padding: 72px 0 120px 0;
 gap: 48px 24px;
 justify-content: center;
 }
