@@ -279,7 +279,6 @@ margin-bottom: 72px;
 display: flex;
 object-fit: contain;
 flex-wrap: wrap;
-padding: 72px 0 120px 0;
 gap: 48px 24px;
 justify-content: center;
 }
