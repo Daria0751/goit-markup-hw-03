@@ -167,8 +167,8 @@ text-align: left;
 padding: 120px 0;
 }
 
-.visually-hidden{
-position: absolute;
+.visually-hidden {
+    position: absolute;
     width: 1px;
     height: 1px;
     margin: -1px;
