@@ -8,6 +8,9 @@ body{
 *::after {
     box-sizing: border-box;
 }
+img{
+    display: block;
+}
 
 .container {
     width: 1158px;
@@ -156,7 +159,7 @@ display: block;
 padding: 16px 32px;
 border-radius: 4px;
 border: none;
-min-width: 169px
+min-width: 169px;
 }
 
 .btn:hover, .btn:focus{
@@ -227,7 +230,7 @@ padding: 0 32px;
     max-width: 232;
 }
 .sect-three{
-    padding: 120px 0
+    padding: 120px 0;
     background-color: #F4F4FD;
 }
 
@@ -282,7 +285,7 @@ justify-content: center;
 }
 
 .sect-four-item{
-    width: calc((100% - 48px) / 3);
+width: calc((100% - 48px) / 3);
 }
 
 .img-block{
