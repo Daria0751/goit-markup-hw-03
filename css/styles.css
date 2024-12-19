@@ -176,7 +176,6 @@ padding: 120px 0;
     padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
-    clip-path: inset(0);
     overflow: hidden;
 }
 
