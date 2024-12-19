@@ -243,6 +243,7 @@ width: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
 border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
+    width: calc((100% - 72px) / 4);
 }
 
 .img-block-our-team {
